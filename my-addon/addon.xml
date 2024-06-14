@@ -1,0 +1,14 @@
+<addon id="plugin.video.myaddon" version="1.0.0" name="My IMDb Addon" provider-name="YMG-hub">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/myscript.py">
+        <directory>plugin://plugin.video.myaddon</directory>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>My IMDb Addon</summary>
+        <description>Displays data from IMDb</description>
+        <platform>all</platform>
+        <icon>icon.png</icon>
+    </extension>
+</addon>
